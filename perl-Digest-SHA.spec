@@ -21,10 +21,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Digest::SHA is a complete implementation of the NIST Secure Hash
-Standard.  It gives Perl programmers a convenient way to calculate
+Standard. It gives Perl programmers a convenient way to calculate
 SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512 message digests.
 The module can handle all types of input, including partial-byte
 data.
+
+%description -l pl
+Digest::SHA to pe³na implementacja standardu NIST Secure Hash.
+Udostêpnia programistom perlowym wygodny sposób obliczania skrótów
+wiadomo¶ci SHA-1, SHA-224, SHA-256, SHA-384 i SHA-512. Ten modu³
+potrafi obs³u¿yæ wszelkie rodzaje wej¶cia, w³±cznie z danymi
+sk³adaj±cymi siê z czê¶ci bajtów.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -55,6 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Digest/*
 %{perl_vendorarch}/auto/Digest/*/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Digest/*/*.so
-
 %{_mandir}/man1/*
 %{_mandir}/man3/*
