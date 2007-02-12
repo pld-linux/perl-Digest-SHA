@@ -6,7 +6,7 @@
 %define		pdir	Digest
 %define		pnam	SHA
 Summary:	Digest::SHA - interface to the SHA algorithm
-Summary(pl):	Digest::SHA - interfejs do algorytmu SHA
+Summary(pl.UTF-8):   Digest::SHA - interfejs do algorytmu SHA
 Name:		perl-Digest-SHA
 Version:	5.42
 Release:	1
@@ -26,12 +26,12 @@ SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512 message digests.
 The module can handle all types of input, including partial-byte
 data.
 
-%description -l pl
-Digest::SHA to pe³na implementacja standardu NIST Secure Hash.
-Udostêpnia programistom perlowym wygodny sposób obliczania skrótów
-wiadomo¶ci SHA-1, SHA-224, SHA-256, SHA-384 i SHA-512. Ten modu³
-potrafi obs³u¿yæ wszelkie rodzaje wej¶cia, w³±cznie z danymi
-sk³adaj±cymi siê z czê¶ci bajtów.
+%description -l pl.UTF-8
+Digest::SHA to peÅ‚na implementacja standardu NIST Secure Hash.
+UdostÄ™pnia programistom perlowym wygodny sposÃ³b obliczania skrÃ³tÃ³w
+wiadomoÅ›ci SHA-1, SHA-224, SHA-256, SHA-384 i SHA-512. Ten moduÅ‚
+potrafi obsÅ‚uÅ¼yÄ‡ wszelkie rodzaje wejÅ›cia, wÅ‚Ä…cznie z danymi
+skÅ‚adajÄ…cymi siÄ™ z czÄ™Å›ci bajtÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
