@@ -6,7 +6,7 @@
 %define		pdir	Digest
 %define		pnam	SHA
 Summary:	Digest::SHA - interface to the SHA algorithm
-Summary(pl.UTF-8):   Digest::SHA - interfejs do algorytmu SHA
+Summary(pl.UTF-8):	Digest::SHA - interfejs do algorytmu SHA
 Name:		perl-Digest-SHA
 Version:	5.42
 Release:	1
