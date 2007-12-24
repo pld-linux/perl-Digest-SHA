@@ -8,13 +8,13 @@
 Summary:	Digest::SHA - interface to the SHA algorithm
 Summary(pl.UTF-8):	Digest::SHA - interfejs do algorytmu SHA
 Name:		perl-Digest-SHA
-Version:	5.44
+Version:	5.45
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Digest/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bddab365973a795baddc3ec3fb84d16e
+# Source0-md5:	06b625b075c2decf196f06482fde9061
 URL:		http://search.cpan.org/dist/Digest-SHA/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
