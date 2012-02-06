@@ -59,10 +59,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README Changes
-%attr(755,root,root) %{_bindir}/*
-%{perl_vendorarch}/Digest/*
-%dir %{perl_vendorarch}/auto/Digest/*
-%{perl_vendorarch}/auto/Digest/*/*.bs
-%attr(755,root,root) %{perl_vendorarch}/auto/Digest/*/*.so
-%{_mandir}/man1/*
-%{_mandir}/man3/*
+%attr(755,root,root) %{_bindir}/shasum
+%{perl_vendorarch}/Digest/SHA.pm
+%dir %{perl_vendorarch}/auto/Digest/SHA
+%{perl_vendorarch}/auto/Digest/SHA/SHA.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Digest/SHA/SHA.so
+%{_mandir}/man1/shasum.1p*
+%{_mandir}/man3/Digest::SHA.3pm*
