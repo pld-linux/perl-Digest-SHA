@@ -62,7 +62,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/shasum
 %{perl_vendorarch}/Digest/SHA.pm
 %dir %{perl_vendorarch}/auto/Digest/SHA
-%{perl_vendorarch}/auto/Digest/SHA/SHA.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Digest/SHA/SHA.so
 %{_mandir}/man1/shasum.1p*
 %{_mandir}/man3/Digest::SHA.3pm*
